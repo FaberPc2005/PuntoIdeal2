@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medellin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <section>
+        <!-- Barra de Navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Punto Ideal</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="DondeIr.html">Donde Ir</a></li>
+                        <li class="nav-item"><a class="nav-link" href="DondeVivir.html">Donde Vivir</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Quienes Somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div class="row">
+        <div class="col-6"><img src="../img/grafica1.png" alt="grafica" style="width: 100%;"></div>
+        <div class="col-6"><img src="../img/grafica2.png" alt="grafica" style="width: 100%;"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"><img src="../img/grafica3.png" alt="grafica" style="width: 100%;"></div>
+        <div class="col-6"><img src="../img/grafica4.png" alt="grafica" style="width: 100%;"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"></div><img src="../img/grafica5.png" alt="grafica" style="width: 100%;"></div>
+    </div>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Contáctanos</h2>
+            <div class="form-section">
+                <p class="text-center mb-4">¿Tienes alguna pregunta? Llena este formulario y te responderemos pronto
+                </p>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="contactName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="contactName" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="tu@correo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactMessage" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="contactMessage" rows="5"
+                                placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button class="btn btn-primary w-100"
+                            onclick="alert('Mensaje enviado. ¡Gracias por contactarnos!')">Enviar Mensaje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 PuntoIdeal. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

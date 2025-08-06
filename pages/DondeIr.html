@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>¿Qué destino turístico colombiano es ideal para ti?</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="../js/formulario1.js"></script>
+
+
+</head>
+
+<body class="bg-light" style="background: linear-gradient(to right, #F8F9FA, #F8F9FA); min-height: 100vh;">
+  <!--colorpagina-->
+
+
+
+  <!--header-->
+  <section>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Punto Ideal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#">Donde Ir</a></li>
+              <li class="nav-item"><a class="nav-link" href="DondeVivir.html">Donde Vivir</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contacto">Quienes Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
+  <!--Migas de pan-->
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Donde Ir</li>
+      </ol>
+    </nav>
+  </div>
+  <!-------------------------------------titulo principal------------------------------------------------------------->
+
+
+  <div class="container mt-5">
+    <div class="card shadow-lg p-4">
+      <h1 class="text-center mb-4">¿Qué destino turístico colombiano es ideal para ti?</h1>
+
+
+      <!--------------------------------------------formulario------------------------------------------------------------------------->
+
+      <main>
+        <form id="formulario2">
+
+
+          <!-- PREGUNTA 1 -->
+
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">1. ¿Qué tipo de clima prefieres para tus vacaciones?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" value="Medellin" id="q1a" required>
+              <label class="form-check-label" for="q1a">Clima templado y fresco</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" value="Leticia" id="q1b">
+              <label class="form-check-label" for="q1b">Cálido y húmedo, rodeado de naturaleza</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" value="Cartagena" id="q1c">
+              <label class="form-check-label" for="q1c">Soleado con brisa marina</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 2 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">2. ¿Qué tipo de paisaje prefieres?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" value="Medellin" id="q2a" required>
+              <label class="form-check-label" for="q2a">Montañas verdes y ciudad moderna</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" value="Leticia" id="q2b">
+              <label class="form-check-label" for="q2b">Selva espesa y ríos caudalosos</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" value="Cartagena" id="q2c">
+              <label class="form-check-label" for="q2c">Playas de arena blanca y ciudad amurallada</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 3 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">3. ¿Cuál actividad disfrutarías más?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" value="Medellin" id="q3a" required>
+              <label class="form-check-label" for="q3a">Recorrer barrios con arte urbano y cultura</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" value="Leticia" id="q3b">
+              <label class="form-check-label" for="q3b">Explorar la selva y navegar por el Amazonas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" value="Cartagena" id="q3c">
+              <label class="form-check-label" for="q3c">Visitar castillos coloniales y descansar en la playa</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 4 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">4. ¿Qué comida se te antoja más?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Medellin" id="q4a" required>
+              <label class="form-check-label" for="q4a">Bandeja paisa, empanadas y arepas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Leticia" id="q4b">
+              <label class="form-check-label" for="q4b">Pescado de río con frutas amazónicas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Cartagena" id="q4c">
+              <label class="form-check-label" for="q4c">Cazuela de mariscos, arroz con coco</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 5 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">5. ¿Qué fauna te gustaría observar?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Medellin" id="q5a" required>
+              <label class="form-check-label" for="q5a">Aves y mariposas en parques urbanos</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Leticia" id="q5b">
+              <label class="form-check-label" for="q5b">Delfines rosados, monos y tucanes</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Cartagena" id="q5c">
+              <label class="form-check-label" for="q5c">Pelícanos, peces de colores y cangrejos</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 6 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">6. ¿Cómo prefieres moverte en el destino?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Medellin" id="q6a" required>
+              <label class="form-check-label" for="q6a">Metro, metrocable y caminatas urbanas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Leticia" id="q6b">
+              <label class="form-check-label" for="q6b">Botes, senderismo y transporte fluvial</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Cartagena" id="q6c">
+              <label class="form-check-label" for="q6c">A pie o en coche por el centro y sus playas</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 7 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">7. ¿Qué prefieres ver en tus fotos de recuerdo?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Medellin" id="q7a" required>
+              <label class="form-check-label" for="q7a">Graffitis, arquitectura y montañas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Leticia" id="q7b">
+              <label class="form-check-label" for="q7b">Selva, ríos y fauna salvaje</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Cartagena" id="q7c">
+              <label class="form-check-label" for="q7c">Murallas, mar y atardeceres</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 8 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">8. ¿Qué ritmo prefieres en tus vacaciones?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Medellin" id="q8a" required>
+              <label class="form-check-label" for="q8a">Exploración dinámica y urbana</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Leticia" id="q8b">
+              <label class="form-check-label" for="q8b">Tranquilidad y naturaleza</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Cartagena" id="q8c">
+              <label class="form-check-label" for="q8c">Relajación con ambiente festivo</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 9 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">9. ¿Qué tipo de compras te gustaría hacer?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Medellin" id="q9a" required>
+              <label class="form-check-label" for="q9a">Moda local, libros y café</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Leticia" id="q9b">
+              <label class="form-check-label" for="q9b">Artesanías indígenas y productos naturales</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Cartagena" id="q9c">
+              <label class="form-check-label" for="q9c">Recuerdos coloridos y joyas artesanales</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 10 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">10. ¿Qué te interesa más aprender?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Medellin" id="q10a" required>
+              <label class="form-check-label" for="q10a">Historia urbana y transformación social</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Leticia" id="q10b">
+              <label class="form-check-label" for="q10b">Costumbres indígenas y naturaleza</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Cartagena" id="q10c">
+              <label class="form-check-label" for="q10c">Historia colonial y leyendas del Caribe</label>
+            </div>
+          </fieldset>
+
+
+          <!-- PREGUNTA 11 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">11. ¿Con quién planeas viajar?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q11" value="Medellin" id="q11a" required>
+              <label class="form-check-label" for="q11a">Con amigos para salir y descubrir la ciudad</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q11" value="Leticia" id="q11b">
+              <label class="form-check-label" for="q11b">Solo o con alguien aventurero</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q11" value="Cartagena" id="q11c">
+              <label class="form-check-label" for="q11c">Con pareja o familia para relajarse</label>
+            </div>
+          </fieldset>
+
+          <section>
+            <!--Ventana emergente al no responder todas las preguntas-->
+            <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="alertModalLabel">¡Atención!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Por favor responde todas las preguntas antes de continuar.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Entendido</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--VENTANA EMERGENTE DE SABER MAS-->
+          <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="resultModalLabel">Tu Destino Ideal</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p id="resultModalBody" class="fs-4"></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary" id="saberMasMedellin" style="display: none;" onclick="window.location.href='Medellin.html'">Saber más sobre Medellín</button>
+                  <button type="button" class="btn btn-primary" id="saberMasLeticia" style="display: none;" onclick="window.location.href='Leticia.html'">Saber más sobre Leticia</button>
+                  <button type="button" class="btn btn-primary" id="saberMasCartagena" style="display: none;" onclick="window.location.href='Cartagena:html'">Saber más sobre Cartagena</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--------------------------------------- Botón de resultado -------------------------------------------->
+
+
+          <div class="text-center mt-4">
+            <button type="button" class="btn btn-lg mt-4 w-100"
+              style="background-color: #d3d3d3; color: #000000; border: none;" onclick="calcularResultado();">Ver mi
+              destino
+              ideal</button>
+          </div>
+        </form>
+    </div>
+  </div>
+
+
+
+  <!---------------------------- Resultado -------------------------------------------------------------------------->
+  <section id="resultado" class="mt-5 text-center h5 text-success"></section>
+  </main>
+  </div>
+
+  <!-- Contacto Section -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2 class="text-center mb-5">Contáctanos</h2>
+      <div class="form-section">
+        <p class="text-center mb-4">¿Tienes alguna pregunta? Llena este formulario y te responderemos pronto
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="contactName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="contactName" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+              <label for="contactEmail" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="contactEmail" placeholder="tu@correo.com">
+            </div>
+            <div class="mb-3">
+              <label for="contactMessage" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="contactMessage" rows="5" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button class="btn btn-primary w-100" onclick="alert('Mensaje enviado. ¡Gracias por contactarnos!')">Enviar
+              Mensaje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 PuntoIdeal. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

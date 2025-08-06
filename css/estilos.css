@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(135deg, #1a1a1a, #343a40);
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+}
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+.section {
+    padding: 60px 0;
+}
+.form-section {
+    background: #adadad;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.history-section {
+    background: linear-gradient(135deg, #343a40, #495057);
+}
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background: #0056b3;
+}

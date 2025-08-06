@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Punto Ideal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/envioCorreo.js"></script>
+</head>
+
+<body>
+
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Punto Ideal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/DondeIr.html">Donde Ir</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/DondeVivir.html">Donde Vivir</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quienes-somos">Quienes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Migas de pan-->
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- Hero -->
+    <header style="background-image: url('tu-imagen.jpg'); background-size: cover; background-position: center;">
+        <header class="bg-image text-white text-center"
+            style=" height: 60vh; background-size: cover; background-position: center;">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+                <div class="text-center">
+                    <h1 class="display-4 fw-bold">Sientete como en casa en tu <br> proxima aventura</h1>
+                    <a href="#destinos" class="btn btn-primary btn-lg">Encuentra la tuya</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Destinos Destacados -->
+        <section id="destinos" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Destinos Populares</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="pages/Medellin.html">
+                                <img src="img/Medellin400x300.jpeg" class="card-img-top" alt="Medellin">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Medellin, Colombia</h5>
+                                <p class="card-text">Ciudad vibrante rodeada de majestuosas montañas, con una rica
+                                    cultura y festivales llenos de vida que invitan a explorarla.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="pages/Cartagena.html">
+                                <img src="img/cartagena400x300.jpg" class="card-img-top" alt="Cartagena">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Cartagena, Colombia</h5>
+                                <p class="card-text">Encanto histórico con calles coloridas, playas espectaculares y un
+                                    ambiente cálido que te hará querer quedarte.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="pages/LeticiaInfo.html">
+                                <a href="pages/Leticia.html">
+                                    <img src="img/Leticia400x300.png" class="card-img-top" alt="Leticia">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Leticia, Colombia</h5>
+                                    <p class="card-text">Aventuras exóticas en la selva, fauna diversa y una vida única
+                                        junto al río que te atrapará por completo, conoce mas sobre la cultura
+                                        colombiana.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Donde Ir Section -->
+        <section>
+            <div class="container my-5">
+                <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+                    <use xlink:href="#check2-circle"></use>
+                    </svg>
+                    <h1 class="text-body-emphasis">¿No sabes a dónde ir?</h1>
+                    <p class="col-lg-6 mx-auto mb-4">
+                        ¡Descubre tu próximo destino con Punto Ideal!
+                        Ya sea que estés planeando unas vacaciones, una escapada de fin de semana o una gran aventura,
+                        queremos ayudarte a encontrar
+                        ese lugar que te deje sin aliento.
+                        ¿Te imaginas caminando por calles llenas de historia, relajándote frente al mar o explorando
+                        rincones naturales impresionantes?
+                        Completa nuestro formulario y te guiaremos hacia ese destino que parece hecho para ti.
+                    </p>
+                    <a href="pages/DondeIr.html">
+                        <center><button class="btn btn-dark ">Conoce tu punto ideal</button></center>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donde Vivir Section -->
+        <section id="donde-vivir" class="section">
+            <div class="container my-5">
+                <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+                    <use xlink:href="#check2-circle"></use>
+                    </svg>
+                    <h1 class="text-body-emphasis">¿No sabes dónde vivir?</h1>
+                    <p class="col-lg-6 mx-auto mb-4">
+                        ¿No sabes dónde vivir? ¡No te preocupes, en Punto Ideal tenemos la solución perfecta para ti!
+                        Elegir el lugar ideal para comenzar una nueva etapa no es fácil. ¿Te gustaría vivir cerca de la
+                        naturaleza, en una ciudad vibrante o en un rincón tranquilo y acogedor?
+                        En Punto Ideal, te ayudamos a descubrir cuál es el lugar que realmente se adapta a ti, a tu
+                        estilo de vida y a tus sueños.
+                    </p>
+                    <a href="pages/DondeVivir.html">
+                        <center><button class="btn btn-dark ">Conoce tu punto ideal</button></center>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quienes Somos Section -->
+        <section id="quienes-somos" class="section history-section">
+            <div class="container">
+                <h2 class="text-center mb-5">Historia de Punto Ideal</h2>
+                <p class="text-center justify-content-center  style='Roboto'">En Punto Ideal somos una plataforma creada
+                    para ayudarte a encontrar el lugar perfecto para vivir o visitar en Colombia. Ofrecemos información
+                    clara y actualizada sobre diversos destinos, para que puedas explorar y decidir cuál se adapta mejor
+                    a tus gustos y necesidades. Además, ponemos a tu disposición formularios opcionales que facilitan la
+                    búsqueda personalizada de tu punto ideal, aunque nuestra misión principal es brindarte contenido
+                    confiable que te acompañe en cada paso de tu decisión. Queremos que descubras ese espacio donde
+                    realmente te sientas en casa o vivas experiencias únicas.</p>
+            </div>
+        </section>
+        <div class="container text-center py-5">
+            <a href="pages/Comparacion.html" class="btn btn-primary btn-lg px-5 py-4 fs-2" role="button">
+                Ir a la Compartiva
+            </a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Contacto Section -->
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2 class="text-center mb-5">Contáctanos</h2>
+                <div class="form-section">
+                    <p class="text-center mb-4">¿Tienes alguna pregunta? Llena este formulario y te responderemos pronto
+                    </p>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="contactName" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="contactName" placeholder="Tu nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactEmail" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="contactEmail" placeholder="tu@correo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactMessage" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="contactMessage" rows="5"
+                                    placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+                            <button class="btn btn-primary w-100"
+                                onclick="alert('Mensaje enviado. ¡Gracias por contactarnos!')">Enviar Mensaje</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+            <p class="mb-0">&copy; 2025 PuntoIdeal. Todos los derechos reservados.</p>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

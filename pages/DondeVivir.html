@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Punto Ideal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="../js/formulario2.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Barra de Navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Punto Ideal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="DondeIr.html">Donde Ir</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Donde Vivir</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Quienes Somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Migas de pan-->
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Donde Vivir</li>
+      </ol>
+    </nav>
+  </div>
+  <!-------------------------------------titulo principal------------------------------------------------------------->
+
+  <div class="container mt-5">
+    <div class="card shadow-lg p-4">
+      <h1 class="text-center mb-4">¿Cuál es tu nuevo lugar para vivir?</h1>
+
+      <!--------------------------------------------formulario------------------------------------------------------------------------->
+      <main>
+        <form id="formulario1">
+
+          <!-- Pregunta 1 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">1. ¿Qué clima prefieres para vivir todo el año?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" value="Medellin" id="q1a" required>
+              <label class="form-check-label" for="q1a">Templado, sin extremos de calor o frío</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" value="Leticia" id="q1b">
+              <label class="form-check-label" for="q1b">Cálido y húmedo, rodeado de naturaleza</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" value="Cartagena" id="q1c">
+              <label class="form-check-label" for="q1c">Calor constante y ambiente tropical</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 2 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">2. ¿Qué tan importante es la vida nocturna para ti?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" value="Medellin" id="q2a" required>
+              <label class="form-check-label" for="q2a">Muy importante, me gusta salir seguido</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" value="Leticia" id="q2b">
+              <label class="form-check-label" for="q2b">Poco importante, prefiero la tranquilidad</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q2" value="Cartagena" id="q2c">
+              <label class="form-check-label" for="q2c">Importante, especialmente en ambientes turísticos</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 3 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">3. ¿Qué nivel de acceso a servicios médicos necesitas?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" value="Medellin" id="q3a" required>
+              <label class="form-check-label" for="q3a">Alta calidad, tecnología y disponibilidad</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" value="Leticia" id="q3b">
+              <label class="form-check-label" for="q3b">Básica, me adapto fácilmente</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q3" value="Cartagena" id="q3c">
+              <label class="form-check-label" for="q3c">Intermedia, accesible y confiable</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 4 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">4. ¿Qué tan importante es tener cercanía con el mar o el río?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Medellin" id="q4a" required>
+              <label class="form-check-label" for="q4a">No es una prioridad</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Leticia" id="q4b">
+              <label class="form-check-label" for="q4b">Sí, me encanta vivir cerca del agua natural</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Cartagena" id="q4c">
+              <label class="form-check-label" for="q4c">Necesario, amo el mar</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 5 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">5. ¿Qué tan importante es la conexión aérea con otras ciudades?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Medellin" id="q5a" required>
+              <label class="form-check-label" for="q5a">Muy importante, viajo frecuentemente</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Leticia" id="q5b">
+              <label class="form-check-label" for="q5b">Poco importante, prefiero lo local</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Cartagena" id="q5c">
+              <label class="form-check-label" for="q5c">Importante para turismo y familiares</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 6 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">6. ¿Qué ritmo de vida prefieres?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Medellin" id="q6a" required>
+              <label class="form-check-label" for="q6a">Dinámico, con movimiento y oportunidades</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Leticia" id="q6b">
+              <label class="form-check-label" for="q6b">Tranquilo, rodeado de naturaleza</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Cartagena" id="q6c">
+              <label class="form-check-label" for="q6c">Equilibrado entre descanso y vida social</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 7 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">7. ¿Qué tan importante es para ti el acceso a educación?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Medellin" id="q7a" required>
+              <label class="form-check-label" for="q7a">Muy importante, especialmente universidades</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Leticia" id="q7b">
+              <label class="form-check-label" for="q7b">Poco importante, prefiero lo práctico</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Cartagena" id="q7c">
+              <label class="form-check-label" for="q7c">Importante, pero no decisivo</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 8 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">8. ¿Qué tan importante es la seguridad en tu día a día?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Medellin" id="q8a" required>
+              <label class="form-check-label" for="q8a">Muy importante, busco zonas tranquilas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Leticia" id="q8b">
+              <label class="form-check-label" for="q8b">Moderado, puedo adaptarme</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Cartagena" id="q8c">
+              <label class="form-check-label" for="q8c">Importante, pero manejo el riesgo</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 9 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">9. ¿Qué tanto valoras la diversidad cultural en tu entorno?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Medellin" id="q9a" required>
+              <label class="form-check-label" for="q9a">Me encanta compartir con diferentes culturas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Leticia" id="q9b">
+              <label class="form-check-label" for="q9b">Prefiero un entorno más tradicional</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Cartagena" id="q9c">
+              <label class="form-check-label" for="q9c">Me gusta lo multicultural con ambiente caribeño</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 10 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">10. ¿Qué tipo de trabajo prefieres tener?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Medellin" id="q10a" required>
+              <label class="form-check-label" for="q10a">En oficina, remoto o emprendimiento urbano</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Leticia" id="q10b">
+              <label class="form-check-label" for="q10b">En campo, con comunidades o ecoturismo</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Cartagena" id="q10c">
+              <label class="form-check-label" for="q10c">Turismo, comercio o trabajo flexible</label>
+            </div>
+          </fieldset>
+
+          <!-- Pregunta 11 -->
+          <fieldset class="mb-4 p-3 border rounded">
+            <legend class="h5">11. ¿Qué tan importante es para ti tener espacios verdes o naturaleza cercana?</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q11" value="Medellin" id="q11a" required>
+              <label class="form-check-label" for="q11a">Importante, necesito parques y montañas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q11" value="Leticia" id="q11b">
+              <label class="form-check-label" for="q11b">Esencial, quiero vivir inmerso en la naturaleza</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q11" value="Cartagena" id="q11c">
+              <label class="form-check-label" for="q11c">Valioso, pero con acceso a zonas urbanas</label>
+            </div>
+          </fieldset>
+
+        </form>
+      </main>
+
+
+      <!--Ventana emergente al no responder todas las preguntas-->
+      <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+              <h5 class="modal-title" id="alertModalLabel">¡Atención!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              Por favor responde todas las preguntas antes de continuar.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Entendido</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--VENTANA EMERGENTE DONDE VIVIR-->
+      <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="resultModalLabel">Tu Lugar Ideal para Vivir</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p id="resultModalBody" class="fs-4"></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary" id="saberMasMedellin" style="display: none;" onclick="window.location.href='Medellin.html'">Saber más sobre Medellín</button>
+              <button type="button" class="btn btn-primary" id="saberMasLeticia" style="display: none;" onclick="window.location.href='Leticia.html'">Saber más sobre Leticia</button>
+              <button type="button" class="btn btn-primary" id="saberMasCartagena" style="display: none;" onclick="window.location.href='Cartagena.html'">Saber más sobre Cartagena</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------- Botón de resultado ---------------------------->
+      <div class="text-center mt-4">
+        <button type="button" class="btn btn-lg mt-4 w-100"
+          style="background-color: #d3d3d3; color: #000000; border: none;" onclick="calcularResultado();">Ver mi
+          destino
+          ideal</button>
+      </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Resultado -->
+  <section id="resultado" class="mt-5 text-center h5 text-success"></section>
+  </main>
+  </div>
+
+  <!-- Contacto Section -->
+  <section id="contacto" class="section">
+    <div class="container">
+        <h2 class="text-center mb-5">Contáctanos</h2>
+        <div class="form-section">
+            <p class="text-center mb-4">¿Tienes alguna pregunta? Llena este formulario y te responderemos pronto
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="contactName" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="Tu nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="tu@correo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="contactMessage" rows="5"
+                            placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button class="btn btn-primary w-100"
+                        onclick="alert('Mensaje enviado. ¡Gracias por contactarnos!')">Enviar Mensaje</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 PuntoIdeal. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
